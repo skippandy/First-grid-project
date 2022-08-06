@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    width: 800px;
+    background-color: #1e445f;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+h2{
+    color: #2a70a1;
+    text-align: center;
+}
+
+@media screen and (max-width:830px) {
+    main {
+            width: 500px;
+            background-color: #1e445f;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns:repeat(12,1fr);
+            gap: 20px;
+            justify-content: center;
+            color: white;
+        }
+     main .one{
+            grid-column: 2 /span 9;
+            justify-self: center
+
+        }
+    main .two {
+        grid-column: 2 /span 9;
+        justify-self: center
+    }
+    main .three {
+        grid-column: 2 /span 9;
+        justify-self: center
+    }
+    main .four {
+        grid-column: 2 /span 9;
+        justify-self: center
+    }
+    main .five {
+        grid-column: 2 /span 9;
+        justify-self: center
+    }
+
+    main .six {
+        grid-column: 2 /span 9;
+        justify-self: center
+    }
+    p{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width:720) {
+        main {
+                width: 581px;
+                background-color: #1e445f;
+                margin: 40px auto;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                gap: 20px;
+                justify-content: center;
+                color: white;
+            }
+        main .one {
+            grid-column: 2 /span 12;
+            justify-self: center;
+            margin-right: 20px;
+        }
+}
+
+
+
